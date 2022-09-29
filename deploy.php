@@ -22,7 +22,7 @@
     foreach($comandos AS $comando){ 
         $tmp = "xxxxxxxxxxx";
         
-        $salida .= "<span style=\"color: #6BE234;\">\$</span><span style=\"color: #729FCF;\">{$comando}\n</span>< br />"; 
+       
         $salida .= htmlentities(trim($tmp)) . "\n<br /><br />"; 
     } 
 ?> 
