@@ -9,9 +9,9 @@
     // matriz de comandos 
     $comandos = matriz( 
         'echo $PWD', 
-        'whoami', 
-        'git pull', 
-        'git status ', 
+        'sudo whoami', 
+        'sudo git pull', 
+        'sudo git status ', 
         'sincronización de submódulo de git', 
         'actualización de submódulo de git', 
         'estado de submódulo de git', 
@@ -20,7 +20,7 @@
     // comandos exec 
     $salida = ''; 
     foreach($comandos AS $comando){ 
-        $tmp = shell_exec($comando);
+        $tmp = "xxxxxxxxxxx";
         
         $salida .= "<span style=\"color: #6BE234;\">\$</span><span style=\"color: #729FCF;\">{$comando}\n</span>< br />"; 
         $salida .= htmlentities(trim($tmp)) . "\n<br /><br />"; 
