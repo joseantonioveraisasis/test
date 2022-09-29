@@ -10,7 +10,7 @@
     $commands = array(
         'echo $PWD',
         'whoami',
-        'git pull',
+        'git clone https://github.com/joseantonioveraisasis/test.git /var/admin/test',
         'git status',
         'git submodule sync',
         'git submodule update',
