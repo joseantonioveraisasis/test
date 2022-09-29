@@ -8,7 +8,6 @@
 
     // matriz de comandos 
     $comandos = matriz( 
-        'echo $PWD', 
         'sudo whoami', 
         'sudo git pull', 
         'sudo git status ', 
